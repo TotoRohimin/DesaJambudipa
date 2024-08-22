@@ -130,33 +130,182 @@
           <h3 class="section-subheading text-muted">Layanan Desa Jambudipa</h3>
         </div>
         <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
+          <!-- Pertanian -->
+          <div class="col-md-4 service-item">
+            <span class="fa-stack fa-4x service-icon" data-bs-toggle="modal" data-bs-target="#pertanianModal" style="cursor: pointer;">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+              <i class="fas fa-tractor fa-stack-1x fa-inverse"></i>
+              <i class="fas fa-plus-circle fa-stack-1x fa-hover text-white"></i>
             </span>
-            <h4 class="my-3">E-Commerce</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="my-3">Pertanian</h4>
+            <p class="text-muted">Layanan untuk meningkatkan hasil pertanian.</p>
           </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
+    
+          <!-- Pendidikan -->
+          <div class="col-md-4 service-item">
+            <span class="fa-stack fa-4x service-icon" data-bs-toggle="modal" data-bs-target="#pendidikanModal" style="cursor: pointer;">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+              <i class="fas fa-school fa-stack-1x fa-inverse"></i>
+              <i class="fas fa-plus-circle fa-stack-1x fa-hover text-white"></i>
             </span>
-            <h4 class="my-3">Responsive Design</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="my-3">Pendidikan</h4>
+            <p class="text-muted">Program pendidikan dan pelatihan di desa.</p>
           </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
+    
+          <!-- Kesehatan -->
+          <div class="col-md-4 service-item">
+            <span class="fa-stack fa-4x service-icon" data-bs-toggle="modal" data-bs-target="#kesehatanModal" style="cursor: pointer;">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+              <i class="fas fa-clinic-medical fa-stack-1x fa-inverse"></i>
+              <i class="fas fa-plus-circle fa-stack-1x fa-hover text-white"></i>
             </span>
-            <h4 class="my-3">Web Security</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 class="my-3">Kesehatan</h4>
+            <p class="text-muted">Pelayanan kesehatan untuk masyarakat desa.</p>
           </div>
         </div>
       </div>
     </section>
+    
+    <!-- Modal Pertanian -->
+    <div class="modal fade" id="pertanianModal" tabindex="-1" aria-labelledby="pertanianModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="pertanianModalLabel">Layanan Pertanian</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="https://example.com/pertanian.jpg" class="img-fluid rounded" alt="Pertanian">
+              </div>
+              <div class="col-md-6">
+                <p>Layanan pertanian di Desa Jambudipa bertujuan untuk meningkatkan hasil pertanian melalui penggunaan teknologi modern, pelatihan petani, dan akses ke pasar yang lebih luas.</p>
+                <ul>
+                  <li>Teknologi irigasi modern</li>
+                  <li>Pendampingan petani</li>
+                  <li>Akses ke pasar internasional</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal Pendidikan -->
+    <div class="modal fade" id="pendidikanModal" tabindex="-1" aria-labelledby="pendidikanModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="pendidikanModalLabel">Layanan Pendidikan</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="https://example.com/pendidikan.jpg" class="img-fluid rounded" alt="Pendidikan">
+              </div>
+              <div class="col-md-6">
+                <p>Program pendidikan di Desa Jambudipa mencakup berbagai pelatihan untuk meningkatkan kualitas sumber daya manusia, termasuk pendidikan formal dan non-formal.</p>
+                <ul>
+                  <li>Pelatihan keterampilan</li>
+                  <li>Pendidikan formal dan non-formal</li>
+                  <li>Beasiswa untuk siswa berprestasi</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal Kesehatan -->
+    <div class="modal fade" id="kesehatanModal" tabindex="-1" aria-labelledby="kesehatanModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="kesehatanModalLabel">Layanan Kesehatan</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="https://example.com/kesehatan.jpg" class="img-fluid rounded" alt="Kesehatan">
+              </div>
+              <div class="col-md-6">
+                <p>Layanan kesehatan di Desa Jambudipa menyediakan akses mudah ke fasilitas kesehatan, pemeriksaan rutin, dan program kesehatan masyarakat lainnya.</p>
+                <ul>
+                  <li>Pemeriksaan kesehatan rutin</li>
+                  <li>Kampanye kesehatan masyarakat</li>
+                  <li>Fasilitas kesehatan yang modern</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- CSS untuk memperindah modal dan efek hover pada ikon -->
+    <style>
+      .service-item .service-icon {
+        position: relative;
+        transition: transform 0.3s ease;
+      }
+      
+      .service-item .service-icon:hover {
+        transform: scale(1.1);
+      }
+    
+      .service-item .service-icon .fa-hover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+      }
+    
+      .service-item .service-icon:hover .fa-hover {
+        display: flex;
+        opacity: 0.8;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+      }
+    
+      .modal-xl {
+        max-width: 90%;
+      }
+      
+      .modal-dialog-centered {
+        display: flex;
+        align-items: center;
+        min-height: calc(100vh - 1rem);
+      }
+    
+      .modal-content {
+        border-radius: 1rem;
+        overflow: hidden;
+      }
+    </style>
+    
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    
     <!-- Portfolio Grid-->
     <section class="page-section bg-light" id="portfolio">
       <div class="container">
@@ -464,12 +613,31 @@
       <div class="container">
         <div class="text-center">
           <h2 class="section-heading text-uppercase">Peta</h2>
-          <h3 class="section-subheading text-muted">Desa Jambudipa</h3>
+          <h3 class="section-subheading text-muted">Desa Jambudipa, Kecamatan Cisarua, Kabupaten Bandung Barat</h3>
         </div>
-       <h1 class="text-center">HAHAHAHAHAHA</h1>
-       <img src="assets/img/" alt="" width="" height="">
+        <div id="map" style="width: 100%; height: 500px;"></div>
       </div>
     </section>
+    
+    <!-- Load the Leaflet CSS and JavaScript -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    
+    <script>
+      // Inisialisasi peta dengan posisi dan zoom level yang sesuai
+      var map = L.map('map').setView([-6.788254, 107.528204], 15); // Sesuaikan dengan koordinat Desa Jambudipa
+    
+      // Menambahkan tile layer dari OpenStreetMap
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+    
+      // Menambahkan marker pada lokasi Desa Jambudipa
+      L.marker([-6.788254, 107.528204]).addTo(map)
+        .bindPopup('<b>Desa Jambudipa</b><br>Kecamatan Cisarua, Kabupaten Bandung Barat.')
+        .openPopup();
+    </script>
+    
 
     <!-- Contact-->
     <section class="page-section" id="contact">
